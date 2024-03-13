@@ -19,7 +19,7 @@ const App = () => (
 		<p className='info'>
 			<a className="julex" href="https://github.com/julexdev">Copyright © 2024  Julian Cejas</a>
 			<a className="credit" title="on time icons" href="https://www.flaticon.com/free-icons/on-time">Favicon by Freepik - Flaticon</a>
-			<a className="credit" title="source code" href="https://github.com/julexdev">source code</a>
+			<a className="credit" title="source code" href="https://github.com/julexdev/contador-horas">source code</a>
 		</p>
 	</>
 )
