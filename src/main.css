@@ -1,0 +1,19 @@
+:root {
+	font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+	color-scheme: light dark;
+	color: #e7e7e7;
+	background-color: #1f1e1e;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		background-color: #5b5b5b;
+	}
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	place-items: center;
+}

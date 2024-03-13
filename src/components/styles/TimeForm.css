@@ -1,0 +1,35 @@
+.time-form {
+	height: 280px;
+	background-color: #0f7f79;
+	border-radius: 7px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: baseline;
+	align-content: space-evenly;
+}
+
+.day {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:nowrap;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	height: 30px;
+}
+.time-form>div>label {
+	width: 80px;
+}
+.time-form>div>input {
+	width: 80px;
+	margin: 0 10px;
+	text-align: center;
+	border-radius: 4px;
+}
+.dailyTotalSign {
+	margin: 0;
+	width: 15px;
+}

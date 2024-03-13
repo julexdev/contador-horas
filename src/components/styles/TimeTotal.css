@@ -1,0 +1,82 @@
+.timeTotal-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 15px;
+}
+
+table {
+	background-color: #2d3537;
+	width: 115px;
+	margin: 0 auto 0 auto;
+	border: 1px solid #e4c977;
+	border-radius: 5px;
+}
+td {
+	text-align: left;
+	padding: 8px;
+}
+@media (prefers-color-scheme: light) {
+	table {
+		background-color: #c8dfd7;
+	}
+}
+
+.multiplier {
+	margin: 0 10px 0 10px;
+}
+.multiplier-box {
+	width: 60px;
+	height: 20px;
+	text-align: center;
+	border-radius: 4px;
+}
+
+.total {
+	border-color: #868564;
+	width: 100px;
+	height: 25px;
+	margin-right: auto;
+	border-radius: 4px;
+}
+
+@media (prefers-color-scheme: light) {
+	.total {
+		background-color: #c8dfd7;
+		color: #1b2922;
+	}
+	button {
+		background-color: #ebeff0;
+	}
+}
+@media (prefers-color-scheme: dark) {
+	button {
+		background-color: #1a1a1a;
+	}
+}
+
+.clear-button-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin: 0 auto 0 auto;
+}
+.clear-button {
+	margin: 9px 0 9px 0;
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 0.6em 1.2em;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: inherit;
+	cursor: pointer;
+	transition: border-color 0.25s;
+}
+.clear-button:hover {
+	border-color: #06d88470;
+}

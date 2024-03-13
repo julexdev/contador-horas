@@ -1,0 +1,17 @@
+@media (prefers-color-scheme: light) {
+	input {
+		background-color: #eff5f3;
+	}
+	.unavailable-box {
+		background-color: #cbe1d9;
+		color: #131d18;
+	}
+}
+@media (prefers-color-scheme: dark) {
+	input.unavailable-box {
+		border-color: #606163;
+	}
+	.unavailable-box {
+		background-color: #2d3537;
+	}
+}
